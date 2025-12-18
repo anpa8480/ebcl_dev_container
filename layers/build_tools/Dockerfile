@@ -19,7 +19,7 @@ USER $CONTAINER_USER
 RUN pip install pyyaml types-PyYAML \
     requests types-requests \
     Jinja2 types-Jinja2 \
-    unix-ar zstandard
+    unix-ar zstandard cryptography pyelftools
 
 USER $CONTAINER_USER
 
